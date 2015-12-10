@@ -1,0 +1,18 @@
+
+
+body {
+    /*background-color: rgba(0,0,0,0.1);*/
+}
+img {
+    width: 65%;
+}
+.main-resources {
+    display: inline-flex;
+}
+h1,h2,h3 {
+    font-style: bold;
+    font-size: 275%;
+}
+p,li {
+    font-size: 150%;
+}
