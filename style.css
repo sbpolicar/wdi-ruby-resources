@@ -5,8 +5,8 @@
 body {
     /*background-color: rgba(0,0,0,0.1);*/
 }
-img {
-    width: 65%;
+.ruby {
+    width: 75px;
 }
 .main-resources {
     display: inline-flex;
@@ -18,13 +18,21 @@ h1,h2,h3 {
 p,li {
     font-size: 150%;
 }
+.logo {
+    width: 350px;
+}
 .well{
     border-radius: 25px;
+}
+.btn {
     border-left: solid rgba(0,0,0,0.3) 5px;
     border-right: solid rgba(0,0,0,0.3) 5px;
 }
-.btn {
-    border-radius: 15px !important;
-    border-left: solid rgba(0,0,0,0.3) 5px;
-    border-right: solid rgba(0,0,0,0.3) 5px;
+.quote-well{
+    border-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png');
+    border-image-width: 25px;
+    border-radius: 50%;
+    width: 75%;
+    margin: 100px auto;
+    color: red;
 }
