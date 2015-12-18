@@ -1,8 +1,12 @@
 
 *{
+    font-family: 'Amatic SC', cursive !important;
     text-shadow: 0 0 10px rgba(0,0,0,0.19);
+
 }
-body {
+body,h5 {
+    font-size: 150%;
+
     /*background-color: rgba(0,0,0,0.1);*/
 }
 .ruby {
@@ -16,23 +20,37 @@ h1,h2,h3 {
     font-size: 275%;
 }
 p,li {
-    font-size: 150%;
+
 }
 .logo {
     width: 350px;
 }
 .well{
     border-radius: 25px;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 130%;
+
+}
+li,p {
+    font-size: 150%;
+
 }
 .btn {
     border-left: solid rgba(0,0,0,0.3) 5px;
     border-right: solid rgba(0,0,0,0.3) 5px;
 }
 .quote-well{
+    padding: 55px;
     border-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png');
     border-image-width: 25px;
     border-radius: 50%;
     width: 75%;
     margin: 100px auto;
+    font-size: 100%;
+    font-family: helvetica !important;
+
+}
+.quote {
     color: red;
+
 }
