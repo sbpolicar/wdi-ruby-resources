@@ -1,12 +1,19 @@
 
 *{
     font-family: 'Amatic SC', cursive !important;
-    text-shadow: 0 0 10px rgba(0,0,0,0.19);
+
+
+}
+body{
+    background: url('http://americanfireglass.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/u/ruby_red-1_1.jpg');
+    /*background-size: 100vw 100vh;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 body,h5 {
     font-size: 150%;
-
     /*background-color: rgba(0,0,0,0.1);*/
 }
 .ruby {
@@ -25,9 +32,25 @@ p,li {
 .logo {
     width: 350px;
 }
+.title {
+    border-radius: 200px 200px 0 0 !important;
+-moz-border-radius: 200px 200px 0 0 !important;
+-webkit-border-radius: 200px 200px 0 0 !important;
+}
+.footer {
+    border-radius: 0 0 200px 200px !important;
+-moz-border-radius: 0 0 200px 200px !important;
+-webkit-border-radius: 0 0 200px 200px !important;
+}
+.background{
+    /*background-color: rgba(0,0,0,0.5);*/
+    border-radius: 200px !important;
+-moz-border-radius: 200px !important;
+-webkit-border-radius: 200px !important;
+}
 .well{
     border-radius: 25px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.85);
     font-size: 130%;
 
 }
@@ -41,9 +64,7 @@ li,p {
 }
 .quote-well{
     padding: 55px;
-    border-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png');
-    border-image-width: 25px;
-    border-radius: 50%;
+    border-radius: 0% 50%;
     width: 75%;
     margin: 100px auto;
     font-size: 100%;
@@ -53,4 +74,11 @@ li,p {
 .quote {
     color: red;
 
+}
+.container {
+    border-radius: 200px !important;
+-moz-border-radius: 200px !important;
+-webkit-border-radius: 200px !important;
+    border-right: solid rgba(0,0,0,0.85) 25px;
+    border-left: solid rgba(0,0,0,0.85) 25px;
 }
