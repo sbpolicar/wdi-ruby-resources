@@ -1,5 +1,3 @@
-## My Favorite APIs
+## Ruby Resources
 
-Just quick list featuring some of my favorite APIs.
-
-Included are FourSquare, Eventbrite, Yelp, Zillow, Reddit, Facebook, WalkScore, IBM Watson, Google API, Mapbox, Pintrest, Mashape (for seaching for api’s), and Twilio.
+A quick list of resources for those wanting to pick up the Ruby programming language.
